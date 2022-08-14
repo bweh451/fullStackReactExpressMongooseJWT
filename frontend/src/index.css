@@ -1,0 +1,635 @@
+/* The following style sheet provides styling for all elements within the web application */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;600&family=IBM+Plex+Serif:wght@300;400;700&family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+body{
+  margin: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  background-color: #B3B2B2 !important;
+  font-family: 'Fira Sans', sans-serif !important;
+}
+
+.flexContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registerPage{
+  height: 100vh;
+  width: 100vw;
+}
+
+.registerPage button{
+  border: none;
+}
+
+.registerFormContainer{
+  background-color: #606060;
+  color: #7ac3be;
+  padding: 30px 50px;
+  border-radius: 36px;
+  box-shadow: 0 0 30px 5px #00A397;
+}
+
+.registerForm{
+  width: 100%;
+}
+
+.registerForm input{
+  width: 100%;
+  padding: 5px 5px;
+  display: block;
+  border: none;
+}
+
+.registerForm input:focus{
+  outline: none;
+}
+
+.registerForm label{
+  margin-top: 15px;
+  font-size: 110%;
+  font-weight: bold;
+}
+
+.registerForm button{
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #f8e16f;
+  color: #606060;
+}
+
+.formFields{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px 0 50px 0;
+}
+
+.divisionInput{
+  border-left: 1px solid #606060 !important;
+}
+
+.registerFormBtns{
+  display: flex;
+  justify-content: space-between;
+}
+
+.registerFormBtns button:hover{
+ background-color: #7ac3be;
+}
+
+.registerFormBtns button{
+  padding: 5px 10px;
+}
+
+#registerSubmit{
+  text-transform: uppercase;
+}
+
+
+.loginForm label, input{
+  display: block;
+}
+
+.loginForm label{
+  margin-top: 15px;
+  font-size: 110%;
+}
+
+.loginForm input{
+  padding: 5px 5px;
+  border: none;
+  width: 100%;
+}
+
+.loginForm input:focus{
+  outline: none;
+}
+
+.loginForm button{
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #f8e16f;
+  color: #606060;
+}
+
+.loginPage{
+  height: 100vh;
+  width: 100vw;
+}
+
+.otherAcc{
+  margin-top: 50px;
+  font-size: 110%;
+  font-weight: bold;
+ 
+}
+
+.passwordField{
+  display: flex;
+  min-width: 253px;
+}
+
+#loginSubmit{
+  margin-top: 20px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+
+.loginFormContainer{
+  background-color: #606060;
+  color:#7ac3be;
+  padding: 50px 70px;
+  border-radius: 36px;
+  box-shadow: 0 0 30px 5px #00A397;
+  max-width: 400px;
+}
+
+.innerContainer{
+  width: 100%;
+}
+
+.homePage{
+  margin-bottom: 50px;
+}
+
+.homeContainer{
+  margin-top: 40px;
+  width: 50%;
+  height: 50%;
+  color: #606060;
+}
+
+.homeContainer p{
+  font-size: 200%;
+  text-align: center;
+}
+
+.homeContainer h1{
+  font-size: 600%;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+
+.mainCardContainer{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.cardContainer{
+  margin: 50px 0;
+}
+
+.card{
+  border: none !important;
+  background-color: #606060 !important;
+  color:#7ac3be !important;
+}
+
+.card-title{
+  font-weight: bold !important;
+  font-size: 250% !important;
+  padding: 10px 0;
+}
+
+.cardContainer .card-text{
+  font-size: 120%;
+  text-align: left;
+}
+
+.btn{
+  background-color: #f8e16f !important;
+  border: none !important;
+  color:#606060 !important;
+  font-weight: bold !important;
+  padding: 10px 15px !important;  
+}
+
+.disclaimers p{
+  text-align: center;
+  font-size: 120%;
+  
+}
+
+.disclaimers {
+  color:#f8e16f;
+  background-color:#606060;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 30px 5px #f8e16f;
+}
+
+.repoInnerContainer{
+  margin-top: 80px;
+  width: 75%;
+  color: #606060;
+}
+
+.repoInnerContainer h1{
+  margin: 25px 0 25px 0;
+  font-size: 600%;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.repoSearch{
+  margin: 50px 0 100px 0;
+}
+
+.repoInnerContainer h3{
+  font-weight: bold;
+}
+
+#search{
+  width: 40%;
+  background-color: #606060;
+  padding: 30px 60px;
+  border-radius: 8px;
+  color:#7ac3be;
+}
+
+#search input{
+  width: 100%;
+  padding: 5px 5px;
+  border: none;
+}
+
+#search input:focus{
+  outline: none;
+}
+
+#search label{
+  padding-top: 10px;
+  font-size: 110%;
+  font-weight: bold;
+}
+
+#search button{
+  padding: 5px 10px;
+  margin: 30px 0;
+  text-transform: uppercase;
+  border: none;
+  font-weight: bold;
+  background-color: #f8e16f;
+  color:#606060;
+}
+
+.repoTableContainer{
+  border-top: 2px solid #606060;
+  margin-bottom: 50px;
+}
+
+.repoTableContainer h3{
+  margin-top: 50px;
+  color: #606060;
+}
+
+#repoTable button{
+  border: none;
+  background-color:#7ac3be;
+  color: #606060;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+#repoTable button:hover{
+  background-color: #f8e16f;
+}
+
+#repoTable{
+  border-collapse: collapse;
+  margin: 25px 0 50px 0;
+  font-size: 120%;
+  width: 100%;
+  min-width: 687px;
+  
+}
+
+#repoTable th, td{
+  padding: 12px 15px;
+}
+
+#repoTable thead tr{
+  background-color: #606060;
+  color:#7ac3be;
+  text-align: left;
+  font-weight: bold;
+}
+
+#repoTable tbody tr{
+  border-bottom: 1px solid #606060;
+}
+
+.addCredBtn{
+  border: none;
+  padding: 5px 10px;
+  font-size: 120%;
+  color:#606060;
+  background-color: #f8e16f;
+  font-weight: bold;
+}
+
+.addCredBtn:hover{
+  background-color: #7ac3be;
+}
+
+.credFormContainer{
+  border-top: 2px solid #606060;
+  margin-bottom: 50px;
+}
+
+.credFormContainer h3{
+  margin-top: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color:#606060;
+}
+
+.credFormInnerContainer{
+  width: 50%;
+}
+
+.credForm{
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.credForm input{
+  width: 100%;
+  padding: 5px 5px;
+  border: none;
+}
+
+.credForm input:focus{
+  outline: none;
+}
+
+.credForm label{
+  margin-top: 15px;
+  font-size: 110%;
+  font-weight: bold;
+  color:#606060;
+}
+
+.credForm button{
+  margin-top: 20px;
+  border: none;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 110%;
+  background-color: #f8e16f;
+}
+
+.credForm button:hover{
+  background-color: #7ac3be;
+}
+
+.credPassField{
+  display: flex;
+}
+
+.credPassField button{
+  margin: 0;
+}
+
+.credPassField button:hover{
+  background-color: #f8e16f;
+}
+
+.noCred{
+  margin-top: 50px;
+  background-color: #606060;
+  color: #7ac3be;
+  padding: 25px 50px;
+  border-radius: 8px;
+}
+
+.noCred h3{
+  color: #7ac3be;
+}
+
+.noCred button{
+  margin-top: 20px;
+  padding: 5px 10px;
+  border: none;
+  font-size: 110%;
+}
+
+.loginInnerContainer{
+  max-width: 400px;
+}
+
+.alert {
+  border: none !important;
+  margin-bottom: 50px !important;
+}
+
+.userTableContainer{
+  margin-bottom: 50px;
+}
+
+.userTable{
+  border-collapse: collapse;
+  margin: 25px 0 50px 0;
+  font-size: 120%;
+  width: 100%;
+  min-width: 687px;
+  color:#606060;
+}
+
+.userTable th, td{
+  padding: 12px 15px;
+}
+
+.userTable  thead tr{
+  background-color: #606060;
+  color:#7ac3be;
+  text-align: left;
+  font-weight: bold;
+}
+
+.userTable tbody tr{
+  border-bottom: 1px solid #606060;
+}
+
+.userTable button{
+  border: none;
+  background-color:#7ac3be;
+  color: #606060;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+.userTable button:hover{
+  background-color: #f8e16f;
+}
+
+.userTableUpdateBtns button{
+  margin-right: 10px;
+}
+
+.addUserBtn{
+  border: none;
+  padding: 5px 10px;
+  font-size: 120%;
+  color:#606060;
+  background-color: #f8e16f;
+  font-weight: bold;
+}
+
+.addUserBtn:hover{
+  background-color: #7ac3be;
+}
+
+.usersHeading h1{
+  font-size: 600%;
+  letter-spacing: 10px;
+  font-weight: bold;
+  margin: 30px 0 50px 0;
+  color: #606060;
+}
+
+.filterTable input{
+  width: 100%;
+  border: none;
+  padding: 5px 5px;
+}
+
+.filterTable input:focus{
+  outline: none;
+}
+
+.filterTable label{
+ font-size: 150%; 
+ font-weight: bold;
+ color: #606060;
+}
+
+.detailsFormContainer button{
+  border: none;
+}
+
+.detailsFormContainer{
+  border-top: 2px solid #606060;
+  color: #606060;
+  margin-bottom: 50px;
+}
+
+.detailsFormContainer h1{
+  margin-top: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.userRoleContainer{
+  border-top: 2px solid #606060;
+  margin-bottom: 50px;
+  color: #606060;
+}
+
+.userRoleContainer h1{
+  margin-top: 50px;
+}
+
+.userRoleInnerContainer{
+  width: 100%;
+}
+
+.userRoleInnerContainer h1, h3{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.userRoleInnerContainer h1{
+  margin-bottom: 30px;
+}
+
+.userRoleInnerContainer h3{
+  margin-bottom: 20px;
+}
+
+.userRoleInnerContainer button{
+  border: none;
+  background-color:#f8e16f;
+  color: #606060;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+.userRoleInnerContainer button:hover{
+  background-color:#7ac3be;
+}
+
+.userRoleForm{
+  display: flex;
+  justify-content: space-between;
+  font-size: 160%;
+  margin-bottom: 50px;
+}
+
+.userRoleForm input{
+  transform: scale(2);
+  margin: 0 20px;
+}
+
+.closeForm{
+  margin-top: 30px;
+  border: none;
+  background-color:#7ac3be;
+  color: #606060;
+  padding: 5px 5px;
+  font-weight: bold;
+  font-size: 110%;
+}
+
+.closeForm:hover{
+  background-color:#f8e16f;
+}
+
+.errorContainer{
+  margin-top: 300px;
+  background-color: #606060;
+  color:#f8e16f;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 30px 5px #f8e16f;
+}
+
+.errorContainer h1{
+  font-size: 450%;
+  margin-bottom: 50px;
+}
+
+.errorContainer h2{
+  font-size: 300%;
+  margin-bottom: 50px;
+}
+
+.logout{
+  text-align: right;
+  margin: 20px 50px;
+}
+
+.logout button{
+  border: none;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 110%;
+  border-radius: 8px;
+  background-color: #f8e16f;
+  color:#606060;
+}
+
+.logout button:hover{
+  background-color: #7ac3be;
+}
