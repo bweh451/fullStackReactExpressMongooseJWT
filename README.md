@@ -7,7 +7,6 @@
 | Installation | [Click Me](#installation) |   
 | Usage | [Click Me](#usage) |
 | Accounts for usage | [Click Me](#accounts-for-usage) |
-| Something to note | [Click Me](#something-to-note) |
 | Get help | [Click Me](#get-help)
 | Contribution | [Click Me](#contribution) |
 
