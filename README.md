@@ -105,7 +105,7 @@ OUs and divisions: [
 
 ### Admin account
 
-This account will be able to view the repositories it has been assigned to, add new credentials to those repositories and update existing credentials. This account will not be able to view user information.
+This account will be able to view the repositories it has been assigned to, add new credentials to those repositories and update existing credentials. This account will alos be able to view user information.
 
 ```
 First name: "Kenny"
